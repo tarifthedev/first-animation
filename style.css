@@ -1,0 +1,85 @@
+.fild{
+    background-image: linear-gradient(rgb(0, 38, 255), rgba(255, 255, 255, 0.733));
+    border: 2px solid;
+    height: 604px;
+ 
+}
+
+.bat{
+    position: relative;
+    top: 90px;
+    margin-top:70px;
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+}
+
+.fild:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin:top right;
+    transition: transform 0.3s ease-in;
+}
+/* 
+.ball{
+   width: 50px;
+   height: 50px;
+   background-color: rgb(243, 0, 0);
+   border-radius: 25px;
+   position: relative;
+   left: 721px;
+   bottom: -30px;
+   transition:transform 2s ease-out 0.2s ;
+} */
+
+
+.fild:hover .ball1{
+     transform:translate(2000px ,-190px);
+}
+
+.ball1{
+    width: 100px;
+    height: 65px;
+    position: relative;
+    left: 660px;
+    bottom: -120px;
+    transition:transform 1.8s ease-out 0.3s ;
+}
+
+.div{
+    border: 1px solid;
+    width: 100%;
+    height: 270px;
+  background-image: linear-gradient(rgba(0, 100, 0, 0.822), rgba(163, 103, 25, 0.87));
+  
+}
+
+.grass{
+  background-image: url('grass.png');
+  position: absolute;
+  top:400px;
+}
+
+
+.yo{
+    width: 400px;
+    position: relative;
+    top: -290px;
+    left:   1600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
